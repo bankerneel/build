@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld -fnative CMakeFiles/crypto_tests.dir/crypto_tests.obj -o crypto_tests 

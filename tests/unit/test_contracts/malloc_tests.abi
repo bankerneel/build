@@ -1,0 +1,62 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "mallocalot",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "mallocfail",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "mallocpass",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "mallocpass2",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "malloctest",
+            "base": "",
+            "fields": []
+        }
+    ],
+    "actions": [
+        {
+            "name": "mallocalot",
+            "type": "mallocalot",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "mallocfail",
+            "type": "mallocfail",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "mallocpass",
+            "type": "mallocpass",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "mallocpass2",
+            "type": "mallocpass2",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "malloctest",
+            "type": "malloctest",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": []
+}

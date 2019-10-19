@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioTools"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioTools.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioTools-complete.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-install.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-mkdir.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-download.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-update.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-patch.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-configure.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-build.rule"
+		},
+		{
+			"file" : "/home/ubuntu/eosio.cdt/build/EosioTools-prefix/src/EosioTools-stamp/EosioTools-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EosioTools"
+		],
+		"name" : "EosioTools"
+	}
+}

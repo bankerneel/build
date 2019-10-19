@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  CMakeFiles/old_malloc_tests.dir/malloc_tests.obj -o old_malloc_tests.wasm --use-freeing-malloc 

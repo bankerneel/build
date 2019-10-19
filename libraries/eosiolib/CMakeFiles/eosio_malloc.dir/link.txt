@@ -1,0 +1,2 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ar qc libeosio_malloc.a  CMakeFiles/eosio_malloc.dir/malloc.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-ranlib libeosio_malloc.a

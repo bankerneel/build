@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/eosio.cdt/tests/unit/serialize_tests.cpp
+algorithm
+-
+list
+-
+string
+-
+tuple
+-
+vector
+-
+eosio/tester.hpp
+-
+eosio/datastream.hpp
+-
+eosio/serialize.hpp
+-
+

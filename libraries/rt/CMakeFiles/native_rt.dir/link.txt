@@ -1,0 +1,2 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ar qc libnative_rt.a  CMakeFiles/native_rt.dir/compiler_builtins.obj CMakeFiles/native_rt.dir/fixtfti.obj CMakeFiles/native_rt.dir/fixunstfti.obj CMakeFiles/native_rt.dir/fixsfti.obj CMakeFiles/native_rt.dir/fixdfti.obj CMakeFiles/native_rt.dir/fixunssfti.obj CMakeFiles/native_rt.dir/fixunsdfti.obj CMakeFiles/native_rt.dir/floattidf.obj CMakeFiles/native_rt.dir/floatuntidf.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-ranlib libnative_rt.a

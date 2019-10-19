@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/eosio.cdt/tests/unit/datastream_tests.cpp
+array
+-
+deque
+-
+list
+-
+set
+-
+string
+-
+vector
+-
+eosio/tester.hpp
+-
+eosio/binary_extension.hpp
+-
+eosio/crypto.hpp
+-
+eosio/datastream.hpp
+-
+eosio/ignore.hpp
+-
+eosio/symbol.hpp
+-
+

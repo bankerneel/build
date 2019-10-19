@@ -1,0 +1,136 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "test1",
+            "base": "",
+            "fields": [
+                {
+                    "name": "nm",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "test2",
+            "base": "",
+            "fields": [
+                {
+                    "name": "arg0",
+                    "type": "int32"
+                },
+                {
+                    "name": "arg1",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "test4",
+            "base": "",
+            "fields": [
+                {
+                    "name": "to",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "test5",
+            "base": "",
+            "fields": [
+                {
+                    "name": "to",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "testa",
+            "base": "",
+            "fields": [
+                {
+                    "name": "to",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "testb",
+            "base": "",
+            "fields": [
+                {
+                    "name": "to",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "testc",
+            "base": "",
+            "fields": [
+                {
+                    "name": "nm",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "testd",
+            "base": "",
+            "fields": [
+                {
+                    "name": "nm",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "test1",
+            "type": "test1",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "test2",
+            "type": "test2",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "test4",
+            "type": "test4",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "test5",
+            "type": "test5",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "testa",
+            "type": "testa",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "testb",
+            "type": "testb",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "testc",
+            "type": "testc",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "testd",
+            "type": "testd",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": []
+}

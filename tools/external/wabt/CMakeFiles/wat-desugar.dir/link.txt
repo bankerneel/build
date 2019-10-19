@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/wat-desugar.dir/src/tools/wat-desugar.cc.o  -o wat-desugar  -L/home/ubuntu/eosio.cdt/build/eosio_llvm/./lib -Wl,-rpath,/home/ubuntu/eosio.cdt/build/eosio_llvm/./lib libwabt.a 

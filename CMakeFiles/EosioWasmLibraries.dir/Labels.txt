@@ -1,0 +1,14 @@
+# Target labels
+ EosioWasmLibraries
+# Source files and their labels
+/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioWasmLibraries
+/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioWasmLibraries.rule
+/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioWasmLibraries-complete.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-install.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-mkdir.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-download.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-update.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-patch.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-configure.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-build.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmLibraries-prefix/src/EosioWasmLibraries-stamp/EosioWasmLibraries-test.rule

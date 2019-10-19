@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/eosio.cdt/tests/unit/fixed_bytes_tests.cpp
+array
+-
+eosio/tester.hpp
+-
+eosio/fixed_bytes.hpp
+-
+

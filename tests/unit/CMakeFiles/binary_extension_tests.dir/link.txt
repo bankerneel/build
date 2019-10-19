@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld -fnative CMakeFiles/binary_extension_tests.dir/binary_extension_tests.obj -o binary_extension_tests 

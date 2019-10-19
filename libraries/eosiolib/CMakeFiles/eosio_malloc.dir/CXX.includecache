@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/eosio.cdt/libraries/eosiolib/core/eosio/check.hpp
+alloca.h
+-
+string
+-
+
+/home/ubuntu/eosio.cdt/libraries/eosiolib/core/eosio/print.hpp
+utility
+-
+string
+-
+
+/home/ubuntu/eosio.cdt/libraries/eosiolib/malloc.cpp
+cstdlib
+-
+alloca.h
+-
+core/eosio/check.hpp
+/home/ubuntu/eosio.cdt/libraries/eosiolib/core/eosio/check.hpp
+core/eosio/print.hpp
+/home/ubuntu/eosio.cdt/libraries/eosiolib/core/eosio/print.hpp
+

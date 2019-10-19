@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld -fnative CMakeFiles/fixed_bytes_tests.dir/fixed_bytes_tests.obj -o fixed_bytes_tests 

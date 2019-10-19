@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/eosio-pp.dir/src/tools/postpass.cc.o  -o eosio-pp  -L/home/ubuntu/eosio.cdt/build/eosio_llvm/./lib -Wl,-rpath,/home/ubuntu/eosio.cdt/build/eosio_llvm/./lib libwabt.a 

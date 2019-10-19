@@ -1,0 +1,108 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ubuntu/eosio.cdt/build/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ubuntu/eosio.cdt/build/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92693/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_92693.dir/build.make CMakeFiles/cmTC_92693.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92693.dir/CMakeCCompilerABI.c.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cc   -O3     -o CMakeFiles/cmTC_92693.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_92693.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92693.dir/link.txt --verbose=1
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  -v CMakeFiles/cmTC_92693.dir/CMakeCCompilerABI.c.obj -o cmTC_92693.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_92693.dir/build.make:86: recipe for target 'cmTC_92693.wasm' failed
+make[4]: *** [cmTC_92693.wasm] Error 1
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_92693/fast' failed
+make[3]: *** [cmTC_92693/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c19c/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4c19c.dir/build.make CMakeFiles/cmTC_4c19c.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c19c.dir/feature_tests.c.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cc   -O3     -std=c11 -o CMakeFiles/cmTC_4c19c.dir/feature_tests.c.obj   -c /home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_4c19c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4c19c.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_4c19c.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4c19c/fast' failed
+make[3]: *** [cmTC_4c19c/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74360/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_74360.dir/build.make CMakeFiles/cmTC_74360.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74360.dir/CMakeCXXCompilerABI.cpp.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cpp    -O3     -o CMakeFiles/cmTC_74360.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_74360.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74360.dir/link.txt --verbose=1
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  -v CMakeFiles/cmTC_74360.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_74360.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_74360.dir/build.make:86: recipe for target 'cmTC_74360.wasm' failed
+make[4]: *** [cmTC_74360.wasm] Error 1
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_74360/fast' failed
+make[3]: *** [cmTC_74360/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2823a/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2823a.dir/build.make CMakeFiles/cmTC_2823a.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2823a.dir/feature_tests.cxx.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cpp    -O3     -std=c++2a -o CMakeFiles/cmTC_2823a.dir/feature_tests.cxx.obj -c /home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2823a.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2823a.dir/link.txt --verbose=1
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld   CMakeFiles/cmTC_2823a.dir/feature_tests.cxx.obj -o cmTC_2823a.wasm 
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_2823a.dir/build.make:86: recipe for target 'cmTC_2823a.wasm' failed
+make[4]: *** [cmTC_2823a.wasm] Error 255
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2823a/fast' failed
+make[3]: *** [cmTC_2823a/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/tests/unit/CMakeFiles/CMakeTmp'
+
+
+

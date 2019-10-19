@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld -fnative CMakeFiles/serialize_tests.dir/serialize_tests.obj -o serialize_tests 

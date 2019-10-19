@@ -1,0 +1,2 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ar qc librt.a  CMakeFiles/rt.dir/compiler_builtins.obj CMakeFiles/rt.dir/fixtfti.obj CMakeFiles/rt.dir/fixunstfti.obj CMakeFiles/rt.dir/fixsfti.obj CMakeFiles/rt.dir/fixdfti.obj CMakeFiles/rt.dir/fixunssfti.obj CMakeFiles/rt.dir/fixunsdfti.obj CMakeFiles/rt.dir/floattidf.obj CMakeFiles/rt.dir/floatuntidf.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-ranlib librt.a

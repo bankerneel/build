@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/wasm-opcodecnt.dir/src/tools/wasm-opcodecnt.cc.o CMakeFiles/wasm-opcodecnt.dir/src/binary-reader-opcnt.cc.o  -o wasm-opcodecnt  -L/home/ubuntu/eosio.cdt/build/eosio_llvm/./lib -Wl,-rpath,/home/ubuntu/eosio.cdt/build/eosio_llvm/./lib libwabt.a 

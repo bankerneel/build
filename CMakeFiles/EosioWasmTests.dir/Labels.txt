@@ -1,0 +1,14 @@
+# Target labels
+ EosioWasmTests
+# Source files and their labels
+/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioWasmTests
+/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioWasmTests.rule
+/home/ubuntu/eosio.cdt/build/CMakeFiles/EosioWasmTests-complete.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-install.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-mkdir.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-download.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-update.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-patch.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-configure.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-build.rule
+/home/ubuntu/eosio.cdt/build/EosioWasmTests-prefix/src/EosioWasmTests-stamp/EosioWasmTests-test.rule

@@ -1,0 +1,2 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ar qc libeosio_dsm.a  CMakeFiles/eosio_dsm.dir/simple_malloc.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-ranlib libeosio_dsm.a

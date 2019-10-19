@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  CMakeFiles/simple_tests.dir/simple_tests.obj -o simple_tests.wasm 

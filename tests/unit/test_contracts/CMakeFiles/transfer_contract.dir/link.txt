@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  CMakeFiles/transfer_contract.dir/transfer.obj -o transfer_contract.wasm 

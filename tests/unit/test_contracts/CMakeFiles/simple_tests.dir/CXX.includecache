@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/eosio.cdt/tests/unit/test_contracts/simple_tests.cpp
+eosio/eosio.hpp
+-
+eosio/transaction.hpp
+-
+transfer.hpp
+/home/ubuntu/eosio.cdt/tests/unit/test_contracts/transfer.hpp
+
+/home/ubuntu/eosio.cdt/tests/unit/test_contracts/transfer.hpp
+eosio/eosio.hpp
+-
+eosio/asset.hpp
+-
+

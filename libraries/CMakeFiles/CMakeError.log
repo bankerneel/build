@@ -1,0 +1,333 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ubuntu/eosio.cdt/build/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc++
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio_dsm
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ubuntu/eosio.cdt/build/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc++
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio_dsm
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6965f/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6965f.dir/build.make CMakeFiles/cmTC_6965f.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6965f.dir/CMakeCCompilerABI.c.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cc   -O3     -o CMakeFiles/cmTC_6965f.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6965f.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6965f.dir/link.txt --verbose=1
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  -v CMakeFiles/cmTC_6965f.dir/CMakeCCompilerABI.c.obj -o cmTC_6965f.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_6965f.dir/build.make:86: recipe for target 'cmTC_6965f.wasm' failed
+make[4]: *** [cmTC_6965f.wasm] Error 1
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_6965f/fast' failed
+make[3]: *** [cmTC_6965f/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5d5e/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e5d5e.dir/build.make CMakeFiles/cmTC_e5d5e.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5d5e.dir/feature_tests.c.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cc   -O3     -std=c11 -o CMakeFiles/cmTC_e5d5e.dir/feature_tests.c.obj   -c /home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_e5d5e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e5d5e.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_e5d5e.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e5d5e/fast' failed
+make[3]: *** [cmTC_e5d5e/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adbf2/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_adbf2.dir/build.make CMakeFiles/cmTC_adbf2.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_adbf2.dir/CMakeCXXCompilerABI.cpp.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cpp    -O3     -o CMakeFiles/cmTC_adbf2.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_adbf2.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adbf2.dir/link.txt --verbose=1
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld  -v CMakeFiles/cmTC_adbf2.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_adbf2.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_adbf2.dir/build.make:86: recipe for target 'cmTC_adbf2.wasm' failed
+make[4]: *** [cmTC_adbf2.wasm] Error 1
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_adbf2/fast' failed
+make[3]: *** [cmTC_adbf2/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26d4c/fast"
+make[3]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_26d4c.dir/build.make CMakeFiles/cmTC_26d4c.dir/build
+make[4]: Entering directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26d4c.dir/feature_tests.cxx.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-cpp    -O3     -std=c++2a -o CMakeFiles/cmTC_26d4c.dir/feature_tests.cxx.obj -c /home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_26d4c.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26d4c.dir/link.txt --verbose=1
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld   CMakeFiles/cmTC_26d4c.dir/feature_tests.cxx.obj -o cmTC_26d4c.wasm 
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc++
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio_dsm
+CMakeFiles/cmTC_26d4c.dir/build.make:86: recipe for target 'cmTC_26d4c.wasm' failed
+make[4]: *** [cmTC_26d4c.wasm] Error 255
+make[4]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_26d4c/fast' failed
+make[3]: *** [cmTC_26d4c/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/eosio.cdt/build/libraries/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+eosio-cc: Unknown command line argument '-qversion'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-version'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is MSVC using "/?" did not match "Microsoft":
+clang-7: error: no such file or directory: '/?'
+clang-7: error: no input files
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc++
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -lc
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: unable to find library -leosio_dsm
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: cannot open /tmp//?-tmp.c.o: No such file or directory
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+eosio-cc: Unknown command line argument '-h'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+clang version 7.0.0 (https://github.com/eosio/clang.git 6b886302a11a8419b76e469794ff9d0c531a4b4b) (https://github.com/eosio/llvm 3c026f8b7813ad693749d3551353a554c5ca33e7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/ubuntu/eosio.cdt/build/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+eosio-cc: Unknown command line argument '-qversion'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-version'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is MSVC using "/?" did not match "Microsoft":
+clang-7: error: no such file or directory: '/?'
+clang-7: error: no input files
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: cannot open /tmp//?-tmp.c.o: No such file or directory
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+eosio-cc: Unknown command line argument '-h'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+clang version 7.0.0 (https://github.com/eosio/clang.git 6b886302a11a8419b76e469794ff9d0c531a4b4b) (https://github.com/eosio/llvm 3c026f8b7813ad693749d3551353a554c5ca33e7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/ubuntu/eosio.cdt/build/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+eosio-cc: Unknown command line argument '-qversion'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-version'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is MSVC using "/?" did not match "Microsoft":
+clang-7: error: no such file or directory: '/?'
+clang-7: error: no input files
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: cannot open /tmp//?-tmp.c.o: No such file or directory
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+eosio-cc: Unknown command line argument '-h'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+clang version 7.0.0 (https://github.com/eosio/clang.git 6b886302a11a8419b76e469794ff9d0c531a4b4b) (https://github.com/eosio/llvm 3c026f8b7813ad693749d3551353a554c5ca33e7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/ubuntu/eosio.cdt/build/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+eosio-cc: Unknown command line argument '-V'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+eosio-cc: Unknown command line argument '-qversion'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-version'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is MSVC using "/?" did not match "Microsoft":
+clang-7: error: no such file or directory: '/?'
+clang-7: error: no input files
+/home/ubuntu/eosio.cdt/build/bin/wasm-ld: error: cannot open /tmp//?-tmp.c.o: No such file or directory
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+eosio-cc: Unknown command line argument '-h'.  Try: '/home/ubuntu/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w'?
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+eosio-cc: Not enough positional command line arguments specified!
+Must specify at least 1 positional argument: See: /home/ubuntu/eosio.cdt/build/bin/eosio-cc -help
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+clang version 7.0.0 (https://github.com/eosio/clang.git 6b886302a11a8419b76e469794ff9d0c531a4b4b) (https://github.com/eosio/llvm 3c026f8b7813ad693749d3551353a554c5ca33e7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/ubuntu/eosio.cdt/build/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+eosio-cc version 1.6.2
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+eosio-cc version 1.6.2

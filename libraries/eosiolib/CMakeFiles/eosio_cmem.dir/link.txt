@@ -1,0 +1,2 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ar qc libeosio_cmem.a  CMakeFiles/eosio_cmem.dir/memory.obj
+/home/ubuntu/eosio.cdt/build/bin/eosio-ranlib libeosio_cmem.a

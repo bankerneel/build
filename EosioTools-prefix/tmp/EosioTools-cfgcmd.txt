@@ -1,0 +1,1 @@
+cmd='/usr/local/bin/cmake;-DCMAKE_INSTALL_PREFIX=/usr/local;-DCMAKE_BUILD_TYPE=Release;-DVERSION_FULL=1.6.2;-DLLVM_SRCDIR=/home/ubuntu/eosio.cdt/eosio_llvm;-DLLVM_BINDIR=/home/ubuntu/eosio.cdt/build/eosio_llvm;-DLLVM_DIR=/home/ubuntu/eosio.cdt/build/eosio_llvm/lib/cmake/llvm;-DCMAKE_INSTALL_BINDIR=bin;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

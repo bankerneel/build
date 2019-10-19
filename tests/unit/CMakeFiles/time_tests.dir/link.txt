@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld -fnative CMakeFiles/time_tests.dir/time_tests.obj -o time_tests 

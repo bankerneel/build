@@ -1,0 +1,1 @@
+/home/ubuntu/eosio.cdt/build/bin/eosio-ld -fnative CMakeFiles/asset_tests.dir/asset_tests.obj -o asset_tests 
